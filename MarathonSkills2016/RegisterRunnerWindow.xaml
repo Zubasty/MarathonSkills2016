@@ -1,0 +1,23 @@
+﻿<Window x:Class="MarathonSkills2016.RegisterRunnerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MarathonSkills2016"
+        mc:Ignorable="d"
+        Title="RegisterRunnerWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="104,63,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="104,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="104,158,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="104,204,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="104,249,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="104,293,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="643,246,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="643,293,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Registration_B" Content="Регистрация" HorizontalAlignment="Left" Margin="302,351,0,0" VerticalAlignment="Top" Width="75" Click="Registration_B_Click"/>
+        <Button x:Name="Cancel_B" Content="Отмена" HorizontalAlignment="Left" Margin="423,351,0,0" VerticalAlignment="Top" Width="75" Click="Cancel_B_Click"/>
+        <Button x:Name="Back_B" Content="Отмена" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Cancel_B_Click"/>
+
+    </Grid>
+</Window>
